@@ -8,6 +8,6 @@
 
 ### Change location / to :
 > location = / {
-       root /usr/share/nginx/html;
-       index  index.html index.htm;
-   }
+>       root /usr/share/nginx/html;
+>      index  index.html index.htm;
+>  }
