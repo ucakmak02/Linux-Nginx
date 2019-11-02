@@ -1,4 +1,4 @@
-# Ngnix-Default-Page (Linux System)
+## Ngnix-Default-Page (Linux System)
 
 ### Open Default Page  (probably you should use 'sudo' )
 > nano /etc/nginx/sites-available/default
@@ -11,3 +11,7 @@
 >       root /usr/share/nginx/html;     
 >           index  index.html index.htm;       
 >       }
+
+### Save and restart nginx
+
+> service nginx restart
